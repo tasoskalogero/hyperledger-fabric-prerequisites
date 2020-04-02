@@ -17,15 +17,14 @@ Instructions how to setup a basic system with all prerequisites for Hyperledger 
 
 Open a terminal and install curl, docker and docker-compose:
 
-> sudo apt-get install curl docker docker-compose
+```console
+sudo apt-get install curl docker docker-compose
+```
 
 Make sure that Docker and Docker Compose versions are above the required (17.06.2-ce and 1.14.0)
 
 ```console
 docker --version
-```
-
-```console
 docker-compose --version
 ```
 Add user to the Docker group and reboot to apply the changes:
@@ -34,7 +33,6 @@ Add user to the Docker group and reboot to apply the changes:
 sudo usermod -a -G docker $USER
 reboot
 ```
-
 
 ### Install Go <a name="go"></a>
 
