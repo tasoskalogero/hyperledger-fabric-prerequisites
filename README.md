@@ -82,11 +82,17 @@ nvm install --lts
 ## Download Docker Images <a name="docker-images"></a>
 
 Hyperledger Fabric provides a bootstrap script, which downloads all available docker images. 
-Enter the following commands in your terminal:
+Enter the following commands in your terminal to download the latest version:
+
 ```console
 mkdir fabric && cd fabric
 curl -sSL https://bit.ly/2ysbOFE | bash -s
 ```
+If you want to download specific versions, modify the above command:
+```console
+curl -sSL https://bit.ly/2ysbOFE | bash -s -- <fabric_version> <fabric-ca_version> <thirdparty_version>
+```
+
 The command above downloads and executes a bash script that will download and extract all of the platform-specific binaries you will need to set up your network.
 
 You're done!
