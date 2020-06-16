@@ -36,7 +36,7 @@ $ reboot
 
 ### Install Go <a name="go"></a>
 
-Install the recommended verstion of 1.11.x manually:
+Install the recommended version of 1.11.x manually:
 
 First, go to [Go download page](https://golang.org/dl/) and copy the url of the latest go1.14.x.linux-amd64.tar.gz file. Then, in the terminal:
 
